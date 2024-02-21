@@ -14,12 +14,13 @@
   background: transparent;
 }
 
-/* Define variables in the :root */
+
  :root {
    --contrast: rgb(5, 17, 5);
    --backgr: #f1e695;
    --Prim: #0f225b;
    --bgB: rgb(143, 225, 142); 
 
-   /* OPGAVE 1: definer en palette med mindst 5 egentlige farver plus kontrasterne sort og hvid */
+   
  }
+
