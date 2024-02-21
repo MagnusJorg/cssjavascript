@@ -1,14 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-  <link rel="stylesheet" href="css/css.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rask Køreskole</title>
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+    header {
+        background-color: #333;
+        padding: 20px 0;
+        text-align: center;
+        color: white;
+    }
+    nav {
+        background-color: #444;
+        text-align: center;
+    }
+    nav a {
+        color: white;
+        text-decoration: none;
+        padding: 10px 20px;
+    }
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 20px;
+    }
+    .row {
+        flex: 1;
+        margin-bottom: 20px;
+    }
+    .row header {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    .row p {
+        margin-bottom: 10px;
+    }
+    .footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+</style>
 </head>
 <body>
-  <h1>hello world</h1>
-  <h2>efnewiuf</h2>
+
+<header>
+    <h1>Rask Køreskole ApS</h1>
+</header>
+
+<nav>
+    <a href="#forside">Forside</a>
+    <a href="#kørekort">Kørekort</a>
+    <a href="#forløb">Forløb</a>
+    <a href="#undervisere">Undervisere</a>
+</nav>
+
+<div class="container">
+    <div class="row">
+        <header>Forside</header>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <button>Call to Action</button>
+        <img src="image1.jpg" alt="Image 1">
+    </div>
+    <div class="row">
+        <header>Kørekort</header>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <button>Call to Action</button>
+        <img src="image2.jpg" alt="Image 2">
+    </div>
+    <div class="row">
+        <header>Forløb</header>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <button>Call to Action</button>
+        <img src="image3.jpg" alt="Image 3">
+    </div>
+    <div class="row">
+        <header>Undervisere</header>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <button>Call to Action</button>
+        <img src="image4.jpg" alt="Image 4">
+    </div>
+</div>
+
+<footer class="footer">
+    <p>Rask Køreskole ApS - Fredensgade 26 - 8000 Århus C - info@RaskKøreskole.dk - Ring: 27106000</p>
+</footer>
+
 </body>
 </html>
